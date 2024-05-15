@@ -1,14 +1,16 @@
-# Import the Flask class from the flask module
-from flask import Flask
+from flask import Flask, render_template, request
 
-# Create an instance of the Flask class
 app = Flask(__name__)
 
-# Define a route and a function to handle requests to that route
-@app.route('/')
-def hello_world():
-    return 'Hello, Flask World!'
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        num1 = float(request.form['num1'])
+        num2 = float(request.form['num2'])
+        soma = num1 + num2
+        return render_template('index.html', resultado=soma)
+    else:
+        return render_template('index.html')
 
-# Run the application
 if __name__ == '__main__':
     app.run(debug=True)
