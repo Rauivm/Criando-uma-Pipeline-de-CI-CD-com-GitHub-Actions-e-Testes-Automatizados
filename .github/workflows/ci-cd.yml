@@ -40,6 +40,6 @@ jobs:
 
       # Runs unit tests
       - name: Run unit tests
-        run: python unit_tests.py
+        run: python test_soma.py
 
       # You can add more steps here for building, testing, and deploying your project
