@@ -1,4 +1,4 @@
-# Criando-uma-Pipeline-de-CI-CD-com-GitHub-Actions-e-Testes-Automatizados
+# Criando uma Pipeline de CI CD com GitHub Actions e Testes Automatizados
 
 Criando uma Pipeline de CI/CD com GitHub Actions e Testes Automatizados
 Objetivo: Configurar uma pipeline de CI/CD usando GitHub Actions para um projeto de software simples e escrever dois testes automatizados: um teste unitário e um teste de integração.
