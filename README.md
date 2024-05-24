@@ -39,3 +39,4 @@ Quando ocorre um push no branch main ou é aberto um pull request para o branch 
 
 Flask==2.0.2
 Werkzeug==2.0.2
++++++++++++
